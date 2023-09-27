@@ -556,7 +556,7 @@ button{
 }
 
 .menu-menu{
-    background: url(bg.jpg) no-repeat center center fixed;
+    background: url(/bg.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -748,7 +748,9 @@ button{
     .container {
         margin: auto 40px;
     }
-
+    .menu-menu .container{
+        margin: 0 auto;
+    }
     .number-item {
         font-size: 23px;
         margin-bottom: 20px;
@@ -778,5 +780,18 @@ button{
     .header-suptitle{
         padding: 15px 0;
     }
+    .menu-menu-image img{
+        width: 270px;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
